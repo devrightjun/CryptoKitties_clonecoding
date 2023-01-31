@@ -7,7 +7,7 @@ import "./KittyBase.sol";
 /// @author Axiom Zen (https://www.axiomzen.co)
 /// @dev Ref: https://github.com/ethereum/EIPs/issues/721
 ///  See the KittyCore contract documentation to understand how the various contract facets are arranged.
-contract KittyOwnership is KittyBase, KittyOwnership {
+contract KittyOwnership is KittyBase {
 
     /// @notice Name and symbol of the non fungible token, as defined in ERC721.
     // string public name = "CryptoKitties";
